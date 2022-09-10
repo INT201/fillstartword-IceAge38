@@ -5,7 +5,7 @@ function fillStartWord(startWord, word) {
   
 
    if (word == null || word == undefined){
-    return "undefined"
+    return undefined
   }  if (startWord === word.substring(0,startWord.length)){
     return word
   } else{
